@@ -1,0 +1,34 @@
+.footer {
+    position: relative;
+    height: 350px;
+    background-color: #14181f;
+    color: white;
+}
+
+.footerSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.link {
+    cursor: pointer;
+    font-size: 18px;
+    color:#b5b5b5;
+}
+.link:hover{
+    transition: all 0.3s;
+    color:#ff7a00;
+}
+
+.footerBottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+}

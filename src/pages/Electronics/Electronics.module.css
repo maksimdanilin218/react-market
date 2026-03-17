@@ -1,0 +1,17 @@
+.container{
+    background-image: url(./ElectronicsPage/electronicsBgi.png);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    height: auto;
+}
+.title{
+    font-size: 48px;
+    margin: 0;
+    padding: 20px 0 0 20px;
+}
+.description{
+    font-size: 20px;
+    color: #a39f9f;
+    margin: 0;
+    padding: 10px 0 0 20px;
+}

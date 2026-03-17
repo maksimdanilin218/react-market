@@ -1,0 +1,29 @@
+.sidebarItem{
+}
+.sidebarTitle{
+    font-size: 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.sidebarTitle:hover{
+    padding-left: 20px;
+    transition: all 0.5s;
+    transform: rotateX('angle');
+}
+.sidebarChildren{
+    padding-left: 15px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+    object-fit: contain;
+}
+.link{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}

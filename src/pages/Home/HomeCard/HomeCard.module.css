@@ -1,0 +1,50 @@
+.container{
+    position: relative;
+    border-radius: 15px;
+    width: 350px;
+    height: 420px;
+    background-color: #f5f5f5;
+}
+.img{
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+}
+.title{
+    font-size: 24px;
+    margin: 0;
+
+}
+.info{
+    text-align: start;
+    padding: 10px 0 0 20px;
+}
+.description{
+    font-size: 20px;
+    margin: 0;
+    padding-top: 5px;
+}
+.btn{
+    cursor: pointer;
+    position: absolute;
+    font-size: 18px;
+    bottom: 10px;
+    left: 20px;
+    background-color: rgb(248, 139, 62);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    border: none
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.HomeCard{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

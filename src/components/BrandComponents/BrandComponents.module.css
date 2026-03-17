@@ -1,0 +1,53 @@
+.container{
+    margin: 30px auto;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1000px;
+    gap: 20px;
+}
+.card{
+    position: relative;
+    display: block;
+    background-color: #fff;
+    width: 250px;
+    height: 120px;
+    border-radius: 15px;
+}
+.logoContainer{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 120px;
+    height: 70px;
+    object-fit: contain;
+}
+.title{
+    font-size: 16px;
+}
+.btnContainer{
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    background-color:  rgb(248, 139, 62);
+    border-radius: 10px;
+}
+.link:hover{
+    transition: all 0.3s;
+    transform: scaleY(1.1);
+}
