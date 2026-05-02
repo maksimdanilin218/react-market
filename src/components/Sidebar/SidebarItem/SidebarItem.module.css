@@ -11,7 +11,7 @@
 .sidebarTitle:hover{
     padding-left: 20px;
     transition: all 0.5s;
-    transform: rotateX('angle');
+    transform: rotateX('angle')
 }
 .sidebarChildren{
     padding-left: 15px;

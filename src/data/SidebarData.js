@@ -30,9 +30,9 @@ export const sidebarData = [
                     { id: 213, title: "Xiaomi", count: 25, price: "29.999", icon: "/SidebarIcon/ChildrenIcon/xiaomiIcon.png", path: "/electronics/laptop/xiaomi" },
                 ]
             },
-            { id: 23, title: "Телевизоры", count: 12, icon: "./SidebarIcon/tvIcon.png", path: "/electronics/tv" },
-            { id: 24, title: "Наушники", count: 19, icon: "./SidebarIcon/headphoneIcon.png", path: "/electronics/headphones" },
-            { id: 25, title: "Часы", count: 14, icon: "./SidebarIcon/smartwatchIcon.png", path: "/electronics/smartwatch" },
+            { id: 23, title: "Телевизоры", count: 12, icon: "/SidebarIcon/tvIcon.png", path: "/electronics/tv" },
+            { id: 24, title: "Наушники", count: 19, icon: "/SidebarIcon/headphoneIcon.png", path: "/electronics/headphones" },
+            { id: 25, title: "Часы", count: 14, icon: "/SidebarIcon/smartwatchIcon.png", path: "/electronics/smartwatch" },
         ]
     },
     {

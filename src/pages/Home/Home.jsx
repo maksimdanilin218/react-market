@@ -1,5 +1,6 @@
 import style from "./Home.module.css"
 import HomeCard from "./HomeCard/HomeCard"
+import ReviewCard from "./ReviewCard/ReviewCard"
 
 export default function Home() {
     return (
@@ -15,6 +16,10 @@ export default function Home() {
             <div className={style.cardSection}>
                 <h1 className={style.title}>Почему выбирают нас</h1>
                 <HomeCard />
+            <div className={style.review}>
+                <h1 className={style.title}>Отзывы наших клиентов</h1>
+                <ReviewCard />
+            </div>
             </div>
         </div>
     )

@@ -2,27 +2,35 @@
     margin: 30px auto;
     display: grid;
     justify-content: space-around;
-    grid-template-columns: repeat(4, 1fr);
-    width: 1000px;
+    grid-template-columns: repeat(5, 1fr);
+    width: 1100px;
     gap: 20px;
 }
 .card{
     position: relative;
     display: block;
-    background-color: #fff;
-    width: 250px;
-    height: 120px;
+    background: rgba(255, 255, 255, 0.1);
+    /* прозрачность */
+    backdrop-filter: blur(10px);
+    /* размытие */
+    -webkit-backdrop-filter: blur(10px);
+    /* для Safari */
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 100px;
     border-radius: 15px;
 }
 .logoContainer{
-    height: 70px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .logo{
     width: 120px;
-    height: 70px;
+    height: 60px;
     object-fit: contain;
 }
 .title{
@@ -30,7 +38,7 @@
 }
 .btnContainer{
     height: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     align-items: bottom;
     justify-content: center;

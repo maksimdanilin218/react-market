@@ -3,14 +3,14 @@ import { productData } from "../../data/ProductData";
 import { filterProducts } from "../../utils/filterProducts";
 import ProductCard from "./ProductCard/ProductCard";
 
-function ProductList({ category, popular, brand }) {
+function ProductList({ category, popular, brand, onSelect }) {
     const filteredProduct = filterProducts(productData, {
         category, brand, popular
     });
     return (
         <div className={style.container}>
             {filteredProduct.map((product) =>(
-                <ProductCard key={product.id} product={product}/>
+                <ProductCard key={product.id} product={product} onSelect={onSelect}/>
             ))}
         </div>
     )

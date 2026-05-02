@@ -6,6 +6,16 @@ export const productData = [
         name: "Iphone 17 pro",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Smartphones/iphone17.webp",
         popular: true
     },
@@ -15,6 +25,16 @@ export const productData = [
         name: "Samsing Galaxy S26 Ultra",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "",
         popular: false
     },
@@ -24,6 +44,16 @@ export const productData = [
         name: "Sony Xperia 1V",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Smartphones/sonyxperia1v.webp",
         popular: true
     },
@@ -33,6 +63,16 @@ export const productData = [
         name: "Xiaomi redmi 12",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "",
         popular: false
     },
@@ -42,6 +82,16 @@ export const productData = [
         name: "Iphone 15 Pro",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Smartphones/iphone15pro.jpeg",
         popular: true
     },
@@ -51,6 +101,16 @@ export const productData = [
         name: "Samsung Galaxy S24 Ultra",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Smartphones/samsung24ultra.webp",
         popular: true
     },
@@ -60,6 +120,16 @@ export const productData = [
         name: "Xiaomi Redmi note 13 pro",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Smartphones/redminote13pro.jpg",
         popular: true
     },
@@ -69,6 +139,16 @@ export const productData = [
         name: "Realme GT Neo 5",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Smartphones/realme.jpg",
         popular: false
     },
@@ -79,6 +159,16 @@ export const productData = [
         price: 79.999,
         category: "smartphones",
         img: "/ElectronicsPage/Smartphones/realme11.jpg",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         popular: true
     },
     {
@@ -87,6 +177,16 @@ export const productData = [
         name: "Sony Xperia 5 V",
         price: 79.999,
         category: "smartphones",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "",
         popular: false
     },
@@ -97,6 +197,16 @@ export const productData = [
         name: "MacBook Neo",
         price: 79.999,
         category: "laptop",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Laptop/macbookNeo.avif",
         popular: true
     },
@@ -106,6 +216,16 @@ export const productData = [
         name: "MacBook Pro 14” and 16”",
         price: 79.999,
         category: "laptop",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Laptop/macbookNeo.avif",
         popular: false
     },
@@ -115,6 +235,16 @@ export const productData = [
         name: "RedmiBook Pro 16",
         price: 79.999,
         category: "laptop",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Laptop/redmibook.jpg",
         popular: true
     },
@@ -124,6 +254,16 @@ export const productData = [
         name: "RedmiBook 14",
         price: 79.999,
         category: "laptop",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Laptop/redmibook.jpg",
         popular: false
     },
@@ -133,6 +273,16 @@ export const productData = [
         name: "Zenbook S 16",
         price: 79.999,
         category: "laptop",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Laptop/zeenbook.jpg",
         popular: true
     },
@@ -142,6 +292,16 @@ export const productData = [
         name: "VivoBook S14",
         price: 79.999,
         category: "laptop",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Laptop/zeenbook.jpg",
         popular: false
     },
@@ -151,6 +311,16 @@ export const productData = [
         name: "MagicBook X16",
         price: 79.999,
         category: "laptop",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Laptop/magicbook.jpg",
         popular: true
     },
@@ -160,6 +330,16 @@ export const productData = [
         name: "MagicBook Pro 16 ",
         price: 79.999,
         category: "laptop",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/Laptop/magicbook.jpg",
         popular: false
     },
@@ -170,6 +350,16 @@ export const productData = [
         name: "LG OLED C3 55",
         price: 79.999,
         category: "tv",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/TV/lg.jpg",
         popular: true
     },
@@ -179,6 +369,16 @@ export const productData = [
         name: "LG NanoCell NANO75 65",
         price: 79.999,
         category: "tv",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/TV/lg.jpg",
         popular: false
     },
@@ -188,6 +388,16 @@ export const productData = [
         name: "Samsung QLED Q80C 55",
         price: 79.999,
         category: "tv",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/TV/samsung.jpg",
         popular: true
     },
@@ -197,6 +407,16 @@ export const productData = [
         name: "Samsung Crystal UHD 50",
         price: 79.999,
         category: "tv",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/TV/samsung.jpg",
         popular: false
     },
@@ -206,6 +426,16 @@ export const productData = [
         name: "Xiaomi TV A2 55",
         price: 79.999,
         category: "tv",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/TV/xiaomi.jpg",
         popular: true
     },
@@ -215,6 +445,16 @@ export const productData = [
         name: "Xiaomi Mi TV P1 43",
         price: 79.999,
         category: "tv",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/TV/xiaomi.jpg",
         popular: false
     },
@@ -224,6 +464,16 @@ export const productData = [
         name: "Sony Bravia XR A80L 55",
         price: 79.999,
         category: "tv",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/TV/sony.jpg",
         popular: true
     },
@@ -233,6 +483,16 @@ export const productData = [
         name: "Sony Bravia X75K 50",
         price: 79.999,
         category: "tv",
+        specs: {
+            storage: "512 ГБ",
+            screen: "120 Гц Oled",
+            camera: "48 Мп",
+            cpu: "A19 Pro",
+            net: "5G",
+            color: "Оранжевый",
+            battery: "Емкость 4500 mAh",
+            op: "ios 18"
+        },
         img: "/ElectronicsPage/TV/sony.jpg",
         popular: false
     },

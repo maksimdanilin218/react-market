@@ -1,9 +1,9 @@
 .container{
-    width: 1100px;
-    margin: 0 auto;
+    width: 700px;
+    margin: 0;
     padding: 30px 0;
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(1, 300px);
     justify-content: space-around;
     align-items: center;
     justify-items: center;

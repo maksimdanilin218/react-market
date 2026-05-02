@@ -1,16 +1,15 @@
 {
   "name": "react-market",
-  "homepage": "https://github.com/maksimdanilin218/react-market.git",
+  "homepage": "https://maksimdanilin218.github.io/react-market",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",

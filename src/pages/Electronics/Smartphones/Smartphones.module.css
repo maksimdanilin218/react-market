@@ -1,19 +1,30 @@
-.container{
-    background-image: url(/pageBgi.png);
+.container {
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
     height: auto;
     margin-bottom: 30px;
 }
-.title{
+
+.title {
     font-size: 48px;
     margin: 0;
     padding: 20px 0 0 20px;
 }
-.description{
+
+.description {
     font-size: 20px;
     color: #a39f9f;
     margin: 0;
     padding: 10px 0 0 20px;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.info{
+    width: 400px;
 }

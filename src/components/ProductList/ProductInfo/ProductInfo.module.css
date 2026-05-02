@@ -1,0 +1,172 @@
+.card {
+    position: sticky;
+    top: 100px;
+    margin: 30px 0;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    background: rgba(255, 255, 255, 0.1);
+    /* прозрачность */
+    backdrop-filter: blur(10px);
+    /* размытие */
+    -webkit-backdrop-filter: blur(10px);
+    /* для Safari */
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+/* Info */
+.info {
+    padding: 10px 0 0 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.priceContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price {
+    font-size: 22px;
+    color: #000000;
+    font-weight: bold;
+    margin-right: 10px;
+}
+/* Tags */
+.tags{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.tag{
+    background-color: #c5c5c5e5;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+/* Specs */
+
+.specs{
+
+}
+.specsTitle{
+    font-size: 16px;
+}
+.specRow{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(157, 157, 157);
+    margin-bottom: 10px;
+}
+
+/* Action */
+.actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.actions:hover {
+    transform: scale(1.1);
+    transition: all 0.6s;
+    
+}
+.cartBtn {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 15px 0;
+    background: #ff7a00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+.cartTitle{
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.cartIcon{
+    filter: invert(1);
+}
+.favBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background: #eee;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.favBtn:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.favoriteIcon{
+    width: 25px;
+    height: 25px;
+}
+/* Empty */
+.empty {
+    position: sticky;
+    width: 330px;
+    height: 400px;
+    top: 100px;
+    margin: 60px 0 30px 0;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    /* прозрачность */
+    backdrop-filter: blur(10px);
+    /* размытие */
+    -webkit-backdrop-filter: blur(10px);
+    /* для Safari */
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+.emptyTitle{
+    width: 200px;
+    font-size: 32px;
+    color: black;
+    margin: 30px auto 0 auto;
+}
+.emptyText{
+    font-size: 18px;
+    color: rgb(126, 126, 126);
+    font-weight: 600;
+}
+.emptyImg{
+    width: 200px;
+    height: auto;
+}
+.cartIcon{
+    width: 20px;
+    height: 20px;
+}
